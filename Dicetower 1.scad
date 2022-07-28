@@ -5,6 +5,12 @@
 quality = 16;
 gaps = 16;
 
+X1 = 4;
+X2 = 3;
+RD = 0.25;
+SH = 20.001;
+TW = 2;
+rcnt = 4;
 
 // taken from openscad example 20
 module coil(r1 = 100, r2 = 10, h = 100, stepsize=1/16, twists)
@@ -53,13 +59,6 @@ module battlement(radius= 7.5, width = 1, bgaps=8) {
         }
     }
 }
-
-X1 = 4;
-X2 = 3;
-RD = 0.25;
-SH = 20.001;
-TW = 2;
-rcnt = 4;
 
 module tube() {
     
